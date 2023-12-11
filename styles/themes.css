@@ -4,3 +4,25 @@
 ✦ theme-light — класс светлой темы
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
+
+/* Сделаем так, чтобы значение переменных в body изменялось автоматически, от предпочитаемой темы пользователя */
+@media (prefers-color-scheme: dark) {
+    body {
+      --bg-color: #000000;
+      --accent-color: #00CC14;
+      /* --color: #ff0070;
+      --title-color: #DB00FF;
+      --accent-title-color: #000028;
+      --text-color: #F1B2CE; */
+    }
+}
+
+:root.theme-dark {
+  --bg-color: #000000;
+  --accent-color: #00CC14;
+}
+
+:root.theme-light {
+  --bg-color: #FFF;
+  --accent-color: #000000;
+}
