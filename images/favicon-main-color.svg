@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" fill="currentColor">
 <style>
-        @media (prefers-color-scheme: dark) {
+    @media (prefers-color-scheme: dark) {
       :root {
-        fill: white;
+        fill: #00CC14;
       }
     }
 </style>

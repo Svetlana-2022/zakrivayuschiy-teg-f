@@ -10,19 +10,34 @@
     body {
       --bg-color: #000000;
       --accent-color: #00CC14;
-      /* --color: #ff0070;
-      --title-color: #DB00FF;
-      --accent-title-color: #000028;
-      --text-color: #F1B2CE; */
+      --text-hover: #00CC14;
+      --bg-gradient: 
+      repeating-linear-gradient(90deg, #000 2px, rgba(211, 211, 211, 0) 4px),
+      repeating-linear-gradient(#000 2px, rgba(211, 211, 211, 0) 4px),
+      linear-gradient(#007f0c  0.01%, #004306);
     }
 }
 
 :root.theme-dark {
   --bg-color: #000000;
   --accent-color: #00CC14;
+  --like-sparks-color: #FF0000;
+  --like-contour-color: #00CC14;
+  --text-hover: #00CC14;
+  --bg-gradient: 
+    repeating-linear-gradient(90deg, #000 2px, rgba(211, 211, 211, 0) 4px),
+    repeating-linear-gradient(#000 2px, rgba(211, 211, 211, 0) 4px),
+    linear-gradient(#007f0c  0.01%, #004306);
 }
 
 :root.theme-light {
   --bg-color: #FFF;
   --accent-color: #000000;
+  --like-sparks-color: #FF0000;
+  --like-contour-color: #000000;
+  --text-hover: #FFF;
+  --bg-gradient: 
+  repeating-linear-gradient(90deg, #d3d3d3 2px, rgba(211, 211, 211, 0) 4px),
+  repeating-linear-gradient(#d3d3d3 2px, rgba(211, 211, 211, 0) 4px),
+  linear-gradient(#e7e7e7  0.01%, #1a1a1a);
 }

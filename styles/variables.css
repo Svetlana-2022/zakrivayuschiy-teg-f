@@ -2,8 +2,17 @@
 :root {
     --bg-color: #000000;
     --accent-color: #00CC14;
+    --text-hover: #00CC14;
+    --like-sparks-color: #FF0000;
+    --like-contour-color: #00CC14;
     --main-font: 'Inter-Variable';
     --accent-font: 'Press Start 2P';
     --title-wght: 'wght' 700;
     --text-wght: 'wght' 400;
+    --bg-gradient: 
+    repeating-linear-gradient(90deg, #000 2px, rgba(211, 211, 211, 0) 4px),
+    repeating-linear-gradient(#000 2px, rgba(211, 211, 211, 0) 4px),
+    linear-gradient(#007f0c  0.01%, #004306);
+    --content-width: clamp(375px, 65vw, 696px);
+    --content-mobile-width: 100%;
 }
