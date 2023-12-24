@@ -6,3 +6,6 @@
 --разобраться с svg
 Использование элемента dialog
 На картинках использованы фильтры
+
+** Ccылка на сайт **
+ https://svetlana-2022.github.io/zakrivayuschiy-teg-f/
